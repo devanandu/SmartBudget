@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/mobilerecharge.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/mobilerecharge.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/add.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/add.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/kseb.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/kseb.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/view.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/view.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/pay.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/pay.png"
+    }
+]

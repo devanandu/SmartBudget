@@ -1,0 +1,383 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:4:5-74
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:4:22-72
+uses-permission#android.permission.INTERNET
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:65:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/deva/.android/build-cache/15d8ea9f6a214460b3279731f389fc013080a968/output/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:6:22-67
+application
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:7:5-49:19
+MERGED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:67:5-166:19
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:27:5-40:19
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/deva/.android/build-cache/15d8ea9f6a214460b3279731f389fc013080a968/output/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.4] /Users/deva/.android/build-cache/e3dc4c0ab6a487c3b1d6845a5d21bd228fb4fa85/output/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/deva/.android/build-cache/63044e5d0a4480156a8da34f9778fc89405e6f65/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.0] /Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/deva/.android/build-cache/1dce5a8933a3e0f100b9ada4591a8f6272d931d3/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/deva/.android/build-cache/f8a0463de4dbbe8784e221cac9ee725b98e02fa0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /Users/deva/.android/build-cache/f02a9d53e2bcc81fdd4d2e5a1faeaa3e7c6a1d5b/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /Users/deva/.android/build-cache/684dbea654fa041a4da651af218b50d6d8386e4e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/deva/.android/build-cache/e89750f800335541f383d53b6396ea7ad541a309/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/deva/.android/build-cache/46f4afdbcd394dfb53da601626d4a427f47e902a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/deva/.android/build-cache/58d148262920ebc5003cc73de3ba35c8e986faa2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/deva/.android/build-cache/d50554f773cf9de023234cb83af8c1dac2a7cc29/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/deva/.android/build-cache/083804b98f49475bae2db045251463830078a29a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deva/.android/build-cache/a618edb1f9c975bf8b695ad43f8b58df84c27a08/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:10:9-33
+	android:supportsRtl
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:9:9-39
+	android:theme
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:13:9-40
+activity#hitha.ken.deva.abin.smartbudget.MainActivity
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:16:25-66
+fla
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:17:22-52
+category#android.intent.category.LAUNCHER
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:18:27-74
+activity#hitha.ken.deva.abin.smartbudget.addexpense
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:parentActivityName
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:23:13-55
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:22:13-39
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:24:13-28:29
+category#android.intent.category.DEFAULT
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:27:27-73
+activity#hitha.ken.deva.abin.smartbudget.list
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:30:9-33:75
+	android:label
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:33:13-72
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:31:13-33
+activity#hitha.ken.deva.abin.smartbudget.paybill
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:34:9-45
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:34:19-42
+activity#hitha.ken.deva.abin.smartbudget.pay
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:35:9-38:10
+	android:banner
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:36:13-32
+meta-data#io.fabric.ApiKey
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:40:9-42:72
+	android:value
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:42:13-69
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:41:13-44
+activity#hitha.ken.deva.abin.smartbudget.login
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:44:9-48:36
+	android:noHistory
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:44:41-65
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:44:19-40
+uses-sdk
+INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:61:5-63:54
+MERGED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:23:5-44
+MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/deva/.android/build-cache/15d8ea9f6a214460b3279731f389fc013080a968/output/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.4] /Users/deva/.android/build-cache/e3dc4c0ab6a487c3b1d6845a5d21bd228fb4fa85/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.3.0] /Users/deva/.android/build-cache/63044e5d0a4480156a8da34f9778fc89405e6f65/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.0] /Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/deva/.android/build-cache/1dce5a8933a3e0f100b9ada4591a8f6272d931d3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/deva/.android/build-cache/f8a0463de4dbbe8784e221cac9ee725b98e02fa0/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] /Users/deva/.android/build-cache/f02a9d53e2bcc81fdd4d2e5a1faeaa3e7c6a1d5b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] /Users/deva/.android/build-cache/684dbea654fa041a4da651af218b50d6d8386e4e/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/deva/.android/build-cache/e89750f800335541f383d53b6396ea7ad541a309/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/deva/.android/build-cache/46f4afdbcd394dfb53da601626d4a427f47e902a/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/deva/.android/build-cache/58d148262920ebc5003cc73de3ba35c8e986faa2/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/deva/.android/build-cache/ed65bb7d8926ef719ce5a791a699a450b59999ee/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/deva/.android/build-cache/d50554f773cf9de023234cb83af8c1dac2a7cc29/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /Users/deva/.android/build-cache/083804b98f49475bae2db045251463830078a29a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deva/.android/build-cache/a618edb1f9c975bf8b695ad43f8b58df84c27a08/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:63:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
+activity#com.digits.sdk.android.PhoneNumberActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:68:9-73:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:71:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:73:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:70:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:72:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:69:13-70
+activity#com.digits.sdk.android.ConfirmationCodeActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:74:9-79:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:77:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:79:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:76:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:78:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:75:13-75
+activity#com.digits.sdk.android.LoginCodeActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:80:9-85:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:83:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:85:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:82:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:84:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:81:13-68
+activity#com.digits.sdk.android.PinCodeActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:86:9-91:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:89:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:91:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:88:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:90:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:87:13-66
+activity#com.digits.sdk.android.FailureActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:92:9-96:61
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:95:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:94:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:96:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:93:13-66
+activity#com.digits.sdk.android.ContactsActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:97:9-100:40
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:100:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:99:13-59
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:98:13-67
+activity#com.digits.sdk.android.EmailRequestActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:101:9-106:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:104:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:106:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:103:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:105:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:102:13-71
+activity#com.digits.sdk.android.PhoneNumberActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:107:9-112:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:110:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:112:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:109:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:111:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:108:13-79
+activity#com.digits.sdk.android.ConfirmationCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:113:9-118:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:116:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:118:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:115:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:117:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:114:13-84
+activity#com.digits.sdk.android.LoginCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:119:9-124:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:122:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:124:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:121:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:123:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:120:13-77
+activity#com.digits.sdk.android.FailureActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:125:9-129:61
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:128:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:127:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:129:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:126:13-75
+activity#com.digits.sdk.android.ContactsActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:130:9-133:40
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:133:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:132:13-59
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:131:13-76
+activity#com.digits.sdk.android.InviteActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:134:9-137:40
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:137:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:136:13-59
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:135:13-74
+activity#com.digits.sdk.android.PinCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:138:9-143:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:141:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:143:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:140:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:142:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:139:13-75
+activity#com.digits.sdk.android.EmailRequestActionBarActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:144:9-149:58
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:147:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:149:13-55
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:146:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:148:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:145:13-80
+activity#com.digits.sdk.android.InviteActivity
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:150:9-156:20
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:153:13-37
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:155:13-54
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:152:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:154:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:151:13-65
+service#com.digits.sdk.android.ContactsUploadService
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:158:9-161:40
+	android:enabled
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:160:13-35
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:161:13-37
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:159:13-72
+service#com.digits.sdk.android.AttributableInviteDownloadService
+ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:162:9-165:40
+	android:enabled
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:164:13-35
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:165:13-37
+	android:name
+		ADDED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:163:13-84
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:29:13-79
+activity#com.twitter.sdk.android.core.identity.ShareEmailActivity
+ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:33:9-39:48
+	android:label
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:39:13-45
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:36:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:37:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:35:13-59
+	android:icon
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:38:13-53
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:34:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.0] /Users/deva/.android/build-cache/63044e5d0a4480156a8da34f9778fc89405e6f65/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] /Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/deva/.android/build-cache/1dce5a8933a3e0f100b9ada4591a8f6272d931d3/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/deva/.android/build-cache/f8a0463de4dbbe8784e221cac9ee725b98e02fa0/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /Users/deva/.android/build-cache/f02a9d53e2bcc81fdd4d2e5a1faeaa3e7c6a1d5b/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/deva/.android/build-cache/684dbea654fa041a4da651af218b50d6d8386e4e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/deva/.android/build-cache/e89750f800335541f383d53b6396ea7ad541a309/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/deva/.android/build-cache/46f4afdbcd394dfb53da601626d4a427f47e902a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/deva/.android/build-cache/58d148262920ebc5003cc73de3ba35c8e986faa2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/deva/.android/build-cache/ed65bb7d8926ef719ce5a791a699a450b59999ee/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/deva/.android/build-cache/d50554f773cf9de023234cb83af8c1dac2a7cc29/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/deva/.android/build-cache/083804b98f49475bae2db045251463830078a29a/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.0] /Users/deva/.android/build-cache/63044e5d0a4480156a8da34f9778fc89405e6f65/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.0] /Users/deva/.android/build-cache/63044e5d0a4480156a8da34f9778fc89405e6f65/output/AndroidManifest.xml:23:9-47

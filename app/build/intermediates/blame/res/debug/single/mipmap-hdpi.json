@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-hdpi/line.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-hdpi/line.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    }
+]

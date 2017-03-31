@@ -1,0 +1,1425 @@
+[
+    {
+        "outputFile": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 109,
+                    "endOffset": 160
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 109,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endColumn": 107,
+                    "endOffset": 268
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 107,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 273,
+                    "endColumn": 122,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 122,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endColumn": 101,
+                    "endOffset": 493
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 101,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 498,
+                    "endColumn": 105,
+                    "endOffset": 599
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 105,
+                        "endOffset": 599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 604,
+                    "endColumn": 85,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 604,
+                        "endColumn": 85,
+                        "endOffset": 685
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 107,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 690,
+                        "endColumn": 107,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 117,
+                    "endOffset": 911
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 117,
+                        "endOffset": 911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 916,
+                    "endColumn": 78,
+                    "endOffset": 990
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endColumn": 78,
+                        "endOffset": 990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 995,
+                    "endColumn": 79,
+                    "endOffset": 1070
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 995,
+                        "endColumn": 79,
+                        "endOffset": 1070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1075,
+                    "endColumn": 80,
+                    "endOffset": 1151
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1075,
+                        "endColumn": 80,
+                        "endOffset": 1151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1156,
+                    "endColumn": 105,
+                    "endOffset": 1257
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1156,
+                        "endColumn": 105,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1262,
+                    "endColumn": 106,
+                    "endOffset": 1364
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 106,
+                        "endOffset": 1364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1369,
+                    "endColumn": 97,
+                    "endOffset": 1462
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1369,
+                        "endColumn": 97,
+                        "endOffset": 1462
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1467,
+                    "endColumn": 107,
+                    "endOffset": 1570
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1467,
+                        "endColumn": 107,
+                        "endOffset": 1570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1575,
+                    "endColumn": 105,
+                    "endOffset": 1676
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 105,
+                        "endOffset": 1676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1681,
+                    "endColumn": 108,
+                    "endOffset": 1785
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1681,
+                        "endColumn": 108,
+                        "endOffset": 1785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1790,
+                    "endColumn": 123,
+                    "endOffset": 1909
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1790,
+                        "endColumn": 123,
+                        "endOffset": 1909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1914,
+                    "endColumn": 99,
+                    "endOffset": 2009
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1914,
+                        "endColumn": 99,
+                        "endOffset": 2009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2014,
+                    "endColumn": 52,
+                    "endOffset": 2062
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 52,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2067,
+                    "endColumn": 54,
+                    "endOffset": 2117
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 54,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2122,
+                    "endColumn": 69,
+                    "endOffset": 2187
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 69,
+                        "endOffset": 228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2192,
+                    "endColumn": 101,
+                    "endOffset": 2289
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 101,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2294,
+                    "endColumn": 94,
+                    "endOffset": 2384
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 94,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2389,
+                    "endColumn": 121,
+                    "endOffset": 2506
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 430,
+                        "endColumn": 121,
+                        "endOffset": 547
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2511,
+                    "endColumn": 53,
+                    "endOffset": 2560
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 552,
+                        "endColumn": 53,
+                        "endOffset": 601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2565,
+                    "endColumn": 65,
+                    "endOffset": 2626
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 606,
+                        "endColumn": 65,
+                        "endOffset": 667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2631,
+                    "endColumn": 73,
+                    "endOffset": 2700
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 73,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2705,
+                    "endColumn": 76,
+                    "endOffset": 2777
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endColumn": 76,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2782,
+                    "endColumn": 51,
+                    "endOffset": 2829
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 823,
+                        "endColumn": 51,
+                        "endOffset": 870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2834,
+                    "endColumn": 45,
+                    "endOffset": 2875
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 875,
+                        "endColumn": 45,
+                        "endOffset": 916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2880,
+                    "endColumn": 82,
+                    "endOffset": 2958
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 921,
+                        "endColumn": 82,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2963,
+                    "endColumn": 86,
+                    "endOffset": 3045
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endColumn": 86,
+                        "endOffset": 1086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3050,
+                    "endColumn": 64,
+                    "endOffset": 3110
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1091,
+                        "endColumn": 64,
+                        "endOffset": 1151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3115,
+                    "endColumn": 94,
+                    "endOffset": 3205
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1156,
+                        "endColumn": 94,
+                        "endOffset": 1246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3210,
+                    "endColumn": 102,
+                    "endOffset": 3308
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1251,
+                        "endColumn": 102,
+                        "endOffset": 1349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3313,
+                    "endColumn": 259,
+                    "endOffset": 3568
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1354,
+                        "endColumn": 259,
+                        "endOffset": 1609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3573,
+                    "endColumn": 55,
+                    "endOffset": 3624
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1614,
+                        "endColumn": 55,
+                        "endOffset": 1665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3629,
+                    "endColumn": 54,
+                    "endOffset": 3679
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1670,
+                        "endColumn": 54,
+                        "endOffset": 1720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3684,
+                    "endColumn": 94,
+                    "endOffset": 3774
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1725,
+                        "endColumn": 94,
+                        "endOffset": 1815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3779,
+                    "endColumn": 69,
+                    "endOffset": 3844
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1820,
+                        "endColumn": 69,
+                        "endOffset": 1885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3849,
+                    "endColumn": 86,
+                    "endOffset": 3931
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1890,
+                        "endColumn": 86,
+                        "endOffset": 1972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3936,
+                    "endColumn": 85,
+                    "endOffset": 4017
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1977,
+                        "endColumn": 85,
+                        "endOffset": 2058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4022,
+                    "endColumn": 50,
+                    "endOffset": 4068
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2063,
+                        "endColumn": 50,
+                        "endOffset": 2109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4073,
+                    "endColumn": 41,
+                    "endOffset": 4110
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2114,
+                        "endColumn": 41,
+                        "endOffset": 2151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4115,
+                    "endColumn": 66,
+                    "endOffset": 4177
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2156,
+                        "endColumn": 66,
+                        "endOffset": 2218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4182,
+                    "endColumn": 79,
+                    "endOffset": 4257
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2223,
+                        "endColumn": 79,
+                        "endOffset": 2298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4262,
+                    "endColumn": 98,
+                    "endOffset": 4356
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2303,
+                        "endColumn": 98,
+                        "endOffset": 2397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4361,
+                    "endColumn": 79,
+                    "endOffset": 4436
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2402,
+                        "endColumn": 79,
+                        "endOffset": 2477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 4441,
+                    "endColumn": 84,
+                    "endOffset": 4521
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2482,
+                        "endColumn": 84,
+                        "endOffset": 2562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 4526,
+                    "endColumn": 55,
+                    "endOffset": 4577
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2567,
+                        "endColumn": 55,
+                        "endOffset": 2618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4582,
+                    "endColumn": 61,
+                    "endOffset": 4639
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2623,
+                        "endColumn": 61,
+                        "endOffset": 2680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4644,
+                    "endLine": 58,
+                    "endColumn": 15,
+                    "endOffset": 5032
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2685,
+                        "endLine": 39,
+                        "endColumn": 15,
+                        "endOffset": 3073
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 5037,
+                    "endLine": 64,
+                    "endColumn": 50,
+                    "endOffset": 5503
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 3078,
+                        "endLine": 45,
+                        "endColumn": 50,
+                        "endOffset": 3544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 5508,
+                    "endLine": 67,
+                    "endColumn": 57,
+                    "endOffset": 5774
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3549,
+                        "endLine": 48,
+                        "endColumn": 57,
+                        "endOffset": 3815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 5779,
+                    "endLine": 72,
+                    "endColumn": 76,
+                    "endOffset": 6201
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3820,
+                        "endLine": 53,
+                        "endColumn": 76,
+                        "endOffset": 4242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6206,
+                    "endLine": 76,
+                    "endColumn": 35,
+                    "endOffset": 6536
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 4247,
+                        "endLine": 57,
+                        "endColumn": 35,
+                        "endOffset": 4577
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6541,
+                    "endLine": 83,
+                    "endColumn": 35,
+                    "endOffset": 7061
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4582,
+                        "endLine": 64,
+                        "endColumn": 35,
+                        "endOffset": 5102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 7066,
+                    "endColumn": 60,
+                    "endOffset": 7122
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 5107,
+                        "endColumn": 60,
+                        "endOffset": 5163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 7127,
+                    "endColumn": 90,
+                    "endOffset": 7213
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 5168,
+                        "endColumn": 90,
+                        "endOffset": 5254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 7218,
+                    "endColumn": 110,
+                    "endOffset": 7324
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 5259,
+                        "endColumn": 110,
+                        "endOffset": 5365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 7329,
+                    "endColumn": 97,
+                    "endOffset": 7422
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 5370,
+                        "endColumn": 97,
+                        "endOffset": 5463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 7427,
+                    "endColumn": 82,
+                    "endOffset": 7505
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 5468,
+                        "endColumn": 82,
+                        "endOffset": 5546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 7510,
+                    "endColumn": 112,
+                    "endOffset": 7618
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 5551,
+                        "endColumn": 112,
+                        "endOffset": 5659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 7623,
+                    "endColumn": 354,
+                    "endOffset": 7973
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 5664,
+                        "endColumn": 354,
+                        "endOffset": 6014
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 7978,
+                    "endColumn": 69,
+                    "endOffset": 8043
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 6019,
+                        "endColumn": 69,
+                        "endOffset": 6084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 8048,
+                    "endColumn": 114,
+                    "endOffset": 8158
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 6089,
+                        "endColumn": 114,
+                        "endOffset": 6199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 8163,
+                    "endColumn": 80,
+                    "endOffset": 8239
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2014,
+                        "endColumn": 80,
+                        "endOffset": 2090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 8244,
+                    "endColumn": 100,
+                    "endOffset": 8340
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2095,
+                        "endColumn": 100,
+                        "endOffset": 2191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 8345,
+                    "endColumn": 55,
+                    "endOffset": 8396
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 8401,
+                    "endColumn": 82,
+                    "endOffset": 8479
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 82,
+                        "endOffset": 189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 8484,
+                    "endColumn": 56,
+                    "endOffset": 8536
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 194,
+                        "endColumn": 56,
+                        "endOffset": 246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 8541,
+                    "endColumn": 293,
+                    "endOffset": 8830
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 251,
+                        "endColumn": 293,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 8835,
+                    "endColumn": 92,
+                    "endOffset": 8923
+                },
+                "from": {
+                    "file": "/Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/res/values-uk/values-uk.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 92,
+                        "endOffset": 633
+                    }
+                }
+            }
+        ]
+    }
+]

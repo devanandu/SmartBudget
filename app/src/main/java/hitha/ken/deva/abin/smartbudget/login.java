@@ -24,7 +24,6 @@ public class login extends AppCompatActivity {
     // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
     private static final String TWITTER_KEY = "z2pCqVB1v1GRk4SKHwKa16qtL";
     private static final String TWITTER_SECRET = "cq66zAjMZZS1NCDa7AVOZJymOLdUPP0OOWgiqzIdPwdGOby4rg";
-    private AuthCallback authCallback;
 
 
     @Override
@@ -32,10 +31,8 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
         Digits.Builder digitsBuilder = new Digits.Builder().withTheme(R.style.CustomDigitsTheme);
-        //AuthConfig.Builder authConfigBuilder = new AuthConfig.Builder().withAuthCallBack(authCallback).withPhoneNumber("+91");
 
        Fabric.with(this, new TwitterCore(authConfig), digitsBuilder.build());
-        //Fabric.with(this, new TwitterCore(authConfig),Digits.authenticate(authConfigBuilder.build()));
         setContentView(R.layout.activity_login);
 
         DigitsAuthButton digitsButton = (DigitsAuthButton) findViewById(R.id.auth_button);
@@ -61,16 +58,9 @@ public class login extends AppCompatActivity {
                 Log.d("Digits", "Sign in with Digits failure", exception);
             }
 
-            public AuthCallback getAuthCallback(){
-                return authCallback;
-            }
         });
 
     }
-/*public void onBackPressed()
-{
-    finishAffinity();
-    System.exit(0);
-}*/
+
 }
 

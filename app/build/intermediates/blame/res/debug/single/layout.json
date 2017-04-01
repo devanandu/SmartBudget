@@ -64,6 +64,10 @@
         "source": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/layout/dgts__activity_phone_number.xml"
     },
     {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_user_details.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_user_details.xml"
+    },
+    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/select_dialog_singlechoice_material.xml"
     },

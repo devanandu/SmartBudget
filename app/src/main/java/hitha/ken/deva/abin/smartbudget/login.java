@@ -49,7 +49,7 @@ public class login extends AppCompatActivity {
                 editor.putString("loginid", phoneNumber);
                 editor.commit();
                 signin(phoneNumber);
-                Intent i = new Intent(login.this,MainActivity.class);
+                Intent i = new Intent(login.this,userDetails.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
                 startActivity(i);
@@ -68,6 +68,7 @@ public class login extends AppCompatActivity {
     void signin(String phno)
     {
       mAuth.createUserWithEmailAndPassword(phno+"@devanandu.pythonanywhere.com",phno);
+
     }
 
 }

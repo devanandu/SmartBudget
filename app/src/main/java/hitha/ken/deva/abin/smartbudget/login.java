@@ -14,6 +14,7 @@ import com.digits.sdk.android.Digits;
 import com.digits.sdk.android.DigitsAuthButton;
 import com.digits.sdk.android.DigitsException;
 import com.digits.sdk.android.DigitsSession;
+import com.google.firebase.auth.FirebaseAuth;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterCore;
 
@@ -24,7 +25,8 @@ public class login extends AppCompatActivity {
     // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
     private static final String TWITTER_KEY = "z2pCqVB1v1GRk4SKHwKa16qtL";
     private static final String TWITTER_SECRET = "cq66zAjMZZS1NCDa7AVOZJymOLdUPP0OOWgiqzIdPwdGOby4rg";
-
+    private FirebaseAuth mAuth;
+    private FirebaseAuth.AuthStateListener mAuthListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +34,8 @@ public class login extends AppCompatActivity {
         TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
         Digits.Builder digitsBuilder = new Digits.Builder().withTheme(R.style.CustomDigitsTheme);
 
-       Fabric.with(this, new TwitterCore(authConfig), digitsBuilder.build());
+        mAuth = FirebaseAuth.getInstance();
+        Fabric.with(this, new TwitterCore(authConfig), digitsBuilder.build());
         setContentView(R.layout.activity_login);
 
         DigitsAuthButton digitsButton = (DigitsAuthButton) findViewById(R.id.auth_button);
@@ -45,6 +48,7 @@ public class login extends AppCompatActivity {
                 SharedPreferences.Editor editor = mPreferences.edit();
                 editor.putString("loginid", phoneNumber);
                 editor.commit();
+                signin(phoneNumber);
                 Intent i = new Intent(login.this,MainActivity.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
@@ -60,6 +64,10 @@ public class login extends AppCompatActivity {
 
         });
 
+    }
+    void signin(String phno)
+    {
+      mAuth.createUserWithEmailAndPassword(phno+"@devanandu.pythonanywhere.com",phno);
     }
 
 }

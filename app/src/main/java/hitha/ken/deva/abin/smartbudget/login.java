@@ -3,6 +3,7 @@ package hitha.ken.deva.abin.smartbudget;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.provider.SyncStateContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,8 +16,11 @@ import com.digits.sdk.android.DigitsAuthButton;
 import com.digits.sdk.android.DigitsException;
 import com.digits.sdk.android.DigitsSession;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.FirebaseDatabase;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 import com.twitter.sdk.android.core.TwitterCore;
+import com.twitter.sdk.android.core.models.User;
 
 import io.fabric.sdk.android.Fabric;
 
@@ -68,8 +72,8 @@ public class login extends AppCompatActivity {
     void signin(String phno)
     {
       mAuth.createUserWithEmailAndPassword(phno+"@devanandu.pythonanywhere.com",phno);
-
     }
+
 
 }
 

@@ -22,7 +22,7 @@ public class transactDB extends SQLiteOpenHelper {
         public static final String type="type";
         public static final String cat="category";
         public transactDB(Context context) {
-            super(context, dbname, null, 1);
+            super(context, dbname, null, 2);
         }
 
         @Override
@@ -32,8 +32,9 @@ public class transactDB extends SQLiteOpenHelper {
 
         @Override
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-            db.execSQL("drop table if exists"+tbname);
+            db.execSQL("drop table if exists "+tbname);
             onCreate(db);
+
         }
         public boolean addtransact(String typ,String catg,String amt,String note){
             SQLiteDatabase db=this.getWritableDatabase();

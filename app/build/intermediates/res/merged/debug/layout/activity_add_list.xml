@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hitha.ken.deva.abin.smartbudget.add_list"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/phno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="9497284461"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addlist"
+        android:text="add list"
+        app:layout_constraintRight_toLeftOf="@+id/displist"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/displist" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="viewbuylist"
+        android:text="view list"
+        android:layout_marginEnd="41dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/list"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/add_to_list"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="56dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phno" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="add new item..."
+        android:inputType="textPersonName"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/phno"
+        android:layout_marginTop="74dp"
+        app:layout_constraintTop_toBottomOf="@+id/phno"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/phno" />
+
+    <EditText
+        android:id="@+id/quantityno"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="number"
+        android:text="1"
+        android:textAlignment="center"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/displist"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/notes"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintLeft_toLeftOf="@+id/notes"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/add_to_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:onClick="AddToList"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/notes"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/notes" />
+
+    <EditText
+        android:id="@+id/displist"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="0dp"
+        android:layout_height="189dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:textAlignment="viewStart"
+        app:layout_constraintTop_toBottomOf="@+id/add_to_list"
+        android:layout_marginTop="13dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        tools:layout_constraintLeft_creator="1" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="46dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="nos"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/add_to_list"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="@+id/add_to_list" />
+
+</android.support.constraint.ConstraintLayout>

@@ -14,6 +14,7 @@
         <item name="android:windowBackground">@android:color/darker_gray</item>
         <item name="android:textColorLink">#ff398622</item>
         <item name="dgts__accentColor">#ffacee</item>
+        <item name="dgts__logoDrawable">@drawable/iconimg</item>
     </style>
 
     <style name="AppTheme.NoActionBar">

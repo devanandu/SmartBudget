@@ -128,6 +128,10 @@
         "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_layout_snackbar_include.xml"
     },
     {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_add_list.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_add_list.xml"
+    },
+    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/content_list.xml",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/content_list.xml"
     },
@@ -144,12 +148,12 @@
         "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
@@ -160,12 +164,12 @@
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_screen_simple.xml"
-    },
-    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/dgts__invite_row_separator.xml",
         "source": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/layout/dgts__invite_row_separator.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_addexpense.xml",
@@ -176,12 +180,12 @@
         "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_navigation_menu.xml"
-    },
-    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/tw__activity_oauth.xml",
         "source": "/Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/res/layout/tw__activity_oauth.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
@@ -192,12 +196,16 @@
         "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_navigation_item.xml"
     },
     {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_list_menu_item_layout.xml"
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/buylist_recycler.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/buylist_recycler.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -220,12 +228,12 @@
         "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_navigation_item_separator.xml"
-    },
-    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -248,12 +256,12 @@
         "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/dgts__state_button.xml",
         "source": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/layout/dgts__state_button.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/dgts__invite_row.xml",
@@ -270,6 +278,10 @@
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_listview.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_listview.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/translist.xml",

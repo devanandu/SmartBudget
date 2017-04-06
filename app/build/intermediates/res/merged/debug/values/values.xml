@@ -13,6 +13,14 @@
         <item>Salary</item>
         <item>Other</item>
     </string-array>
+    <string-array name="list">
+        <item>milk</item>
+        <item>biscuit</item>
+        <item>onion</item>
+        <item>rice</item>
+        <item>banana</item>
+        <item>Other</item>
+    </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference|color" name="dgts__accentColor"/>
     <attr format="reference" name="dgts__logoDrawable"/>
@@ -776,7 +784,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">2cf18a9f-3d24-4b00-821b-d0610c7fabb1</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">cbb40548-cef0-40df-85a2-b52ccd59033f</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -1938,6 +1946,7 @@
         <item name="android:windowBackground">@android:color/darker_gray</item>
         <item name="android:textColorLink">#ff398622</item>
         <item name="dgts__accentColor">#ffacee</item>
+        <item name="dgts__logoDrawable">@drawable/iconimg</item>
     </style>
     <style name="Digits_default" parent="@android:style/Theme.Light">
         <item name="dgts__accentColor">@color/dgts__default_accent</item>

@@ -20,18 +20,18 @@ public final class R {
         public static final int tw__transparent = 0x7f0d0060;
     }
     public static final class dimen {
-        public static final int tw__btn_bar_margin_left = 0x7f0900a3;
-        public static final int tw__btn_bar_margin_right = 0x7f0900a4;
+        public static final int tw__btn_bar_margin_left = 0x7f0900a5;
+        public static final int tw__btn_bar_margin_right = 0x7f0900a6;
         public static final int tw__login_btn_drawable_padding = 0x7f090001;
         public static final int tw__login_btn_height = 0x7f090002;
         public static final int tw__login_btn_left_padding = 0x7f090003;
-        public static final int tw__login_btn_radius = 0x7f0900a5;
+        public static final int tw__login_btn_radius = 0x7f0900a7;
         public static final int tw__login_btn_right_padding = 0x7f090004;
         public static final int tw__login_btn_text_size = 0x7f090005;
         public static final int tw__padding_permission_horizontal_container = 0x7f09001d;
-        public static final int tw__padding_permission_vertical_container = 0x7f0900a6;
-        public static final int tw__permission_description_text_size = 0x7f0900a7;
-        public static final int tw__permission_title_text_size = 0x7f0900a8;
+        public static final int tw__padding_permission_vertical_container = 0x7f0900a8;
+        public static final int tw__permission_description_text_size = 0x7f0900a9;
+        public static final int tw__permission_title_text_size = 0x7f0900aa;
     }
     public static final class drawable {
         public static final int tw__ic_logo_default = 0x7f02008c;
@@ -48,23 +48,23 @@ public final class R {
     }
     public static final class id {
         public static final int height = 0x7f0f004f;
-        public static final int imageView = 0x7f0f00ed;
-        public static final int tw__allow_btn = 0x7f0f00f2;
-        public static final int tw__not_now_btn = 0x7f0f00f1;
-        public static final int tw__share_email_desc = 0x7f0f00f0;
-        public static final int tw__spinner = 0x7f0f00ef;
-        public static final int tw__web_view = 0x7f0f00ee;
+        public static final int imageView = 0x7f0f00f1;
+        public static final int tw__allow_btn = 0x7f0f00f6;
+        public static final int tw__not_now_btn = 0x7f0f00f5;
+        public static final int tw__share_email_desc = 0x7f0f00f4;
+        public static final int tw__spinner = 0x7f0f00f3;
+        public static final int tw__web_view = 0x7f0f00f2;
         public static final int width = 0x7f0f0050;
     }
     public static final class layout {
-        public static final int tw__activity_oauth = 0x7f040053;
-        public static final int tw__activity_share_email = 0x7f040054;
+        public static final int tw__activity_oauth = 0x7f040055;
+        public static final int tw__activity_share_email = 0x7f040056;
     }
     public static final class raw {
         public static final int tw__cacerts = 0x7f070000;
     }
     public static final class string {
-        public static final int kit_name = 0x7f08007b;
+        public static final int kit_name = 0x7f08007c;
         public static final int tw__allow_btn_txt = 0x7f080056;
         public static final int tw__login_btn_txt = 0x7f080057;
         public static final int tw__not_now_btn_txt = 0x7f080058;

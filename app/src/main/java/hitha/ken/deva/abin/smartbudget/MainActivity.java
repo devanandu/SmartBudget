@@ -2,10 +2,12 @@ package hitha.ken.deva.abin.smartbudget;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -17,14 +19,14 @@ import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity {
-    private FirebaseAuth mAuth;
-    DatabaseReference myRef;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mAuth= FirebaseAuth.getInstance();
+       // mAuth= FirebaseAuth.getInstance();
         first_time_check();
         setContentView(R.layout.activity_main);
+        topheader();
 
     }
     private boolean first_time_check() {
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
         }
         return false;
+
     }
     public void addexp(View v)
     {
@@ -57,30 +60,23 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this,add_list.class);
         startActivity(i);
     }
-    public void userupload(View v)
+
+    private void topheader()
     {
-        FirebaseUser firebaseUser=mAuth.getCurrentUser();
-        if(firebaseUser==null)
-            Toast.makeText(getApplicationContext(), "error", Toast.LENGTH_SHORT).show();
-        else
+
+        SharedPreferences mPreferences= getSharedPreferences("MyPref", MODE_PRIVATE);
+        String first = mPreferences.getString("loginid", null);
+        if((first != null))
         {
-            FirebaseDatabase database = FirebaseDatabase.getInstance();
-            myRef = database.getReference("USERS");
-            Toast.makeText(getApplicationContext(),firebaseUser.getEmail() , Toast.LENGTH_SHORT).show();
-        user user = new user(firebaseUser.getUid(),firebaseUser.getEmail());
-       myRef.child(firebaseUser.getUid())
-                .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
-            @Override
-            public void onComplete(@NonNull Task<Void> task) {
-                if (task.isSuccessful()) {
-                    // successfully added user
-                    Toast.makeText(getApplicationContext(), "added", Toast.LENGTH_SHORT).show();
-                } else {
-                    // failed to add user
-                    Toast.makeText(getApplicationContext(), "error adding", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+            UserDB db=new UserDB(this);
+        Cursor c=db.getdetails();
+        if(c.getCount()!=0) {
+            c.moveToFirst();
+            TextView t = (TextView) findViewById(R.id.hello);
+            TextView tx = (TextView) findViewById(R.id.wallet);
+            t.setText("Hi," + c.getString(0).toString());
+            tx.setText("Your Wallet Balance :Rs." + c.getString(1).toString());
+        }
         }
     }
 }

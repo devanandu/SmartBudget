@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/menu/menu_create__view__list.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/menu/menu_create__view__list.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/menu/menu_buylist.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/menu/menu_buylist.xml"
+    }
+]

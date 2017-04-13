@@ -5,8 +5,10 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 import android.widget.Toast;
 
+import java.io.Console;
 import java.util.Date;
 
 /**
@@ -14,7 +16,7 @@ import java.util.Date;
  */
 
 public class transactDB extends SQLiteOpenHelper {
-        public static final String dbname="Smart Home budget";
+        public static final String dbname="bilancio_trans";
         public static final String tbname="Transactions";
         public static final String no="ID";
         public static final String amount="amount";
@@ -22,11 +24,12 @@ public class transactDB extends SQLiteOpenHelper {
         public static final String type="type";
         public static final String cat="category";
         public transactDB(Context context) {
-            super(context, dbname, null, 2);
+            super(context, dbname, null,1);
         }
 
         @Override
         public void onCreate(SQLiteDatabase db) {
+            Log.e("ASDAS","ASDAD");
             db.execSQL("create table Transactions(id integer primary key,amount integer,type text,category text,notes text,created_at DATETIME DEFAULT CURRENT_TIMESTAMP)");
         }
 

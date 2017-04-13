@@ -3,6 +3,7 @@ package hitha.ken.deva.abin.smartbudget;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -13,7 +14,7 @@ import static android.content.Context.MODE_PRIVATE;
  */
 
 public class UserDB extends SQLiteOpenHelper {
-    public static final String dbname="Smart Home budget";
+    public static final String dbname="bilancio_user";
     public static final String tbname="USER";
     public static final String username="name";
     public static final String balance="balance";
@@ -30,7 +31,7 @@ public class UserDB extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("drop table if exists"+tbname);
+        db.execSQL("drop table if exists "+tbname);
         onCreate(db);
     }
     public boolean initial(String name,int bal,String first)
@@ -43,5 +44,12 @@ public class UserDB extends SQLiteOpenHelper {
         content.put(balance,bal);
         content.put(phno,first);
         return db.insert(tbname, null, content) != -1;
+    }
+    public Cursor getdetails()
+    {
+        SQLiteDatabase db=this.getWritableDatabase();
+        Cursor result=db.rawQuery("select * from "+tbname,null);
+        return result;
+
     }
 }

@@ -12,18 +12,18 @@ import android.util.Log;
  */
 
 public class list_itemsDB extends SQLiteOpenHelper {
-    public static final String dbname="Smart Home budget";
-    public static final String tbname="list";
+    public static final String dbname="bilancio_list";
+    public static final String tbname="buylist";
     public static final String itemname="name";
     public static final String type="type";
 
     public list_itemsDB(Context context) {
-        super(context, dbname, null, 3);
+        super(context, dbname, null, 1);
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table list(name text,type text)");
-        db.execSQL("insert into list values('Other',''),('milk','nos.'),('egg','nos.'),('biscuit','nos.'),('onion','kg'),('rice','kg')");
+        db.execSQL("create table buylist(name text,type text)");
+        db.execSQL("insert into buylist values('Other',''),('milk','nos.'),('egg','nos.'),('biscuit','nos.'),('onion','kg'),('rice','kg')");
 
     }
 
@@ -45,7 +45,7 @@ public class list_itemsDB extends SQLiteOpenHelper {
     public Cursor get_all()
     {
         SQLiteDatabase db=this.getWritableDatabase();
-        Cursor result=db.rawQuery("select * from "+tbname,null);
+        Cursor result=db.rawQuery("select * from buylist",null);
         return result;
     }
     public Cursor get_type(String name)

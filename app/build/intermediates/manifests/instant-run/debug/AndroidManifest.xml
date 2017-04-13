@@ -31,9 +31,10 @@
         android:icon="@mipmap/iconimg"
         android:label="Bilancio"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="hitha.ken.deva.abin.smartbudget.MainActivity" >
+        android:supportsRtl="true" >
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.MainActivity"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -44,7 +45,8 @@
         </activity>
         <activity
             android:name="hitha.ken.deva.abin.smartbudget.addexpense"
-            android:parentActivityName="hitha.ken.deva.abin.smartbudget.MainActivity" >
+            android:parentActivityName="hitha.ken.deva.abin.smartbudget.MainActivity"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -58,7 +60,8 @@
         <activity android:name="hitha.ken.deva.abin.smartbudget.paybill" />
         <activity
             android:name="hitha.ken.deva.abin.smartbudget.pay"
-            android:banner="@drawable/title" />
+            android:banner="@drawable/title"
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
@@ -66,28 +69,44 @@
 
         <activity
             android:name="hitha.ken.deva.abin.smartbudget.login"
-            android:noHistory="true" >
+            android:noHistory="true"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="hitha.ken.deva.abin.smartbudget.userDetails" >
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.userDetails"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="hitha.ken.deva.abin.smartbudget.add_list" >
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.add_list"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="hitha.ken.deva.abin.smartbudget.listview" />
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.listview"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.BUYLIST"
+            android:label="@string/title_activity_buylist" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.digits.sdk.android.PhoneNumberActivity"
             android:configChanges="orientation|screenSize"

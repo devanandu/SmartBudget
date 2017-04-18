@@ -136,6 +136,10 @@
         "source": "/Users/deva/.android/build-cache/cbc2aa1edf8b62ad8e821aba3837b0745bc2da39/output/res/layout/design_layout_snackbar_include.xml"
     },
     {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/contactlist.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/contactlist.xml"
+    },
+    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_add_list.xml",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_add_list.xml"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/deva/.android/build-cache/c5c0e2af98d01ca8c593cd9ae4e6a9a66881c055/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/linked_members_rec_layout.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/linked_members_rec_layout.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
@@ -278,6 +286,14 @@
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_create__view__list.xml",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_create__view__list.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_linkmembers.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_linkmembers.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_link.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_link.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",

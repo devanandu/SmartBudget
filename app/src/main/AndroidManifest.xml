@@ -5,15 +5,17 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/iconimg"
         android:label="Bilancio"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        >
-        <activity android:name=".MainActivity" android:theme="@style/AppTheme">
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +26,8 @@
         </activity>
         <activity
             android:name=".addexpense"
-            android:parentActivityName=".MainActivity" android:theme="@style/AppTheme">
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,10 +38,11 @@
             android:name=".list"
             android:label="History"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".paybill" />
+        <activity android:name=".paybill" android:theme="@style/AppTheme" />
         <activity
             android:name=".pay"
-            android:banner="@drawable/title" android:theme="@style/AppTheme" />
+            android:banner="@drawable/title"
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
@@ -46,35 +50,67 @@
 
         <activity
             android:name=".login"
-            android:noHistory="true" android:theme="@style/AppTheme">
+            android:noHistory="true"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".userDetails" android:theme="@style/AppTheme">
+        <activity
+            android:name=".userDetails"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".add_list" android:theme="@style/AppTheme">
+        <activity
+            android:name=".add_list"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".listview" android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".listview"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".BUYLIST"
             android:label="@string/title_activity_buylist">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.DEFAULT" /></intent-filter></activity>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".linkmembers"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".link"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".checkrequests"
+            android:enabled="true"
+            android:exported="false"></service>
     </application>
 
 </manifest>

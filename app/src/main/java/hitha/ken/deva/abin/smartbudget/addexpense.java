@@ -50,8 +50,13 @@ public class addexpense extends AppCompatActivity {
         else
             type = "Income";
         if (db.addtransact(type, spin.getSelectedItem().toString(), amt.getText().toString(), notes.getText().toString()))
+        {
+            UserDB user=new UserDB(this);
+            user.setbalance(amt.getText().toString(),type);
             Toast.makeText(getApplicationContext(), "Saved", Toast.LENGTH_SHORT).show();
+        }
         else
             Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
     }
+
 }

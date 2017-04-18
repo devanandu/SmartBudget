@@ -5,13 +5,18 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,15 +38,17 @@ import java.util.List;
 public class add_list extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private FirebaseAuth mAuth;
     DatabaseReference myRef;
-    String date, first;
+    String date, first,timestamp;
     StringBuffer sb;
     Spinner spin;
+    //CheckBox cb;
     SimpleDateFormat sdf;
     ArrayAdapter<String> adapter;
     list_itemsDB db;
     private List<String> array = new ArrayList<>();
     TextView text,type;
     EditText buylist;
+    private List<members> memberses = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +62,8 @@ public class add_list extends AppCompatActivity implements AdapterView.OnItemSel
         spin.setOnItemSelectedListener(this);
         spin_load();
 
+        member_fetch();
+
         sb = new StringBuffer();
         mAuth = FirebaseAuth.getInstance();
         buylist= (EditText) findViewById(R.id.displist);
@@ -63,22 +72,36 @@ public class add_list extends AppCompatActivity implements AdapterView.OnItemSel
 
         SharedPreferences mPreferences = getSharedPreferences("MyPref", MODE_PRIVATE);
         first = mPreferences.getString("loginid", null);
-        first = first.substring(3);
 
     }
 
     public void addlist(View v) {
-        date = sdf.format(new Date());
-        TextView p = (TextView) findViewById(R.id.phno);
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("MESSAGES");
-        message m = new message(buylist.getText().toString(), first, date);
-        myRef.child(p.getText().toString()).child(date).setValue(m);
-        buylist.setText("");
-        sb.setLength(0);
-        Log.e("hi", "list added");
+        TextView listtext = (TextView) findViewById(R.id.displist);
+        if (listtext.getText().length() != 0) {
+            boolean any = false;
+            for (int i = 0; i < memberses.size(); i++) {
+                CheckBox c = (CheckBox) findViewById(i);
+                if (c.isChecked()) {
+                    //Toast.makeText(getApplicationContext(), "working", Toast.LENGTH_SHORT).show();
+                    any = true;
+                    date = sdf.format(new Date());
+                    sdf=new SimpleDateFormat("yyMMddHHmmssZ");
+                    timestamp=sdf.format(new Date());
+                    TextView p = (TextView) findViewById(R.id.phno);
+                    FirebaseDatabase database = FirebaseDatabase.getInstance();
+                    myRef = database.getReference("MESSAGES");
+                    message m = new message(buylist.getText().toString(), first, date);
+                    myRef.child(memberses.get(i).phno).child(timestamp).setValue(m);
+                    myRef.child(memberses.get(i).phno).child("0status").child("new").setValue("false");
+                    buylist.setText("");
+                    sb.setLength(0);
+                    Log.e("hi", "list added");
+                }
+            }
+            if (!any)
+                Toast.makeText(getApplicationContext(), "select any member", Toast.LENGTH_SHORT).show();
+        }
     }
-
     public void viewbuylist(View v) {
         Intent i = new Intent(this, listview.class);
         startActivity(i);
@@ -160,6 +183,28 @@ public class add_list extends AppCompatActivity implements AdapterView.OnItemSel
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
+
+    }
+    public void member_fetch()
+    {
+        linkmembersDB db=new linkmembersDB(this);
+        Cursor c=db.get_all();
+        if(c.getCount()!=0)
+        {
+            while (c.moveToNext()) {
+                members m = new members(c.getString(0), c.getString(1), c.getString(2));
+                memberses.add(m);
+            }
+        //mAdapter.notifyDataSetChanged();
+            LinearLayout l;
+            l=(LinearLayout)findViewById(R.id.checkboxes);
+            for(int i = 0; i <memberses.size(); i++) {
+                CheckBox cb = new CheckBox(getApplicationContext());
+                cb.setText(memberses.get(i).name+"("+memberses.get(i).phno+")");
+                cb.setId(i);
+                l.addView(cb);
+            }
+        }
 
     }
 }

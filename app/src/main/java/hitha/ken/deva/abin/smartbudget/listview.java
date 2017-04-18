@@ -48,7 +48,6 @@ public class listview extends AppCompatActivity {
 
         SharedPreferences mPreferences= getSharedPreferences("MyPref", MODE_PRIVATE);
         first = mPreferences.getString("loginid", null);
-        first=first.substring(3);
 
         viewbuylist();
     }
@@ -73,6 +72,7 @@ public class listview extends AppCompatActivity {
                     }
                     //t.setText(sb.toString());
                     Log.e("hi", "message :"+sb.toString());
+                    msgs.remove(0);
                 }
                 mAdapter.notifyDataSetChanged();
 
@@ -83,6 +83,7 @@ public class listview extends AppCompatActivity {
                 Log.e("hi", "oncancelled");
             }
         });
+        myRef.child(first).child("0status").child("new").setValue("true");
     }
 
 }

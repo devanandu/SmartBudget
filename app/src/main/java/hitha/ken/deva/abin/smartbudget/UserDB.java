@@ -52,4 +52,13 @@ public class UserDB extends SQLiteOpenHelper {
         return result;
 
     }
+    public void setbalance(String amt,String type)
+    {
+        //int rs=Integer.parseInt(amt);
+        SQLiteDatabase db=this.getWritableDatabase();
+        if(type.equals("Expense"))
+        db.execSQL("update USER set balance=balance-"+amt);
+        else
+            db.execSQL("update USER set balance=balance+"+amt);
+    }
 }

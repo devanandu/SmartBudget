@@ -19,6 +19,7 @@ import com.digits.sdk.android.DigitsException;
 import com.digits.sdk.android.DigitsSession;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -56,7 +57,9 @@ public class login extends AppCompatActivity {
                 // TODO: associate the session userID with your user model
                 SharedPreferences mPreferences = getApplicationContext().getSharedPreferences("MyPref", 0);
                 SharedPreferences.Editor editor = mPreferences.edit();
+                phoneNumber=phoneNumber.substring(3);
                 editor.putString("loginid", phoneNumber);
+                editor.putInt("message",22);
                 editor.commit();
                 signin(phoneNumber);
                 Intent i = new Intent(login.this,userDetails.class);
@@ -75,38 +78,9 @@ public class login extends AppCompatActivity {
         });
 
     }
-    void signin(String phno)
-    {
-      mAuth.createUserWithEmailAndPassword(phno+"@bilancio.pythonanywhere.com",phno);
-        userupload();
+    void signin(String phno) {
+        mAuth.createUserWithEmailAndPassword(phno + "@bilancio.pythonanywhere.com", phno);
     }
-    public void userupload()
-    {
-        FirebaseUser firebaseUser=mAuth.getCurrentUser();
-        if(firebaseUser==null)
-            Toast.makeText(getApplicationContext(), "error uploading", Toast.LENGTH_SHORT).show();
-        else
-        {
-            FirebaseDatabase database = FirebaseDatabase.getInstance();
-            myRef = database.getReference("USERS");
-            Toast.makeText(getApplicationContext(),firebaseUser.getEmail() , Toast.LENGTH_SHORT).show();
-            user user = new user(firebaseUser.getUid(),firebaseUser.getEmail());
-            myRef.child(firebaseUser.getUid())
-                    .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
-                @Override
-                public void onComplete(@NonNull Task<Void> task) {
-                    if (task.isSuccessful()) {
-                        // successfully added user
-                        Toast.makeText(getApplicationContext(), "added", Toast.LENGTH_SHORT).show();
-                    } else {
-                        // failed to add user
-                        Toast.makeText(getApplicationContext(), "error adding", Toast.LENGTH_SHORT).show();
-                    }
-                }
-            });
-        }
-    }
-
 
 }
 

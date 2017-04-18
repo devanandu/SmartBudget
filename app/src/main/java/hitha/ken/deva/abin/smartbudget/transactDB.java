@@ -40,6 +40,7 @@ public class transactDB extends SQLiteOpenHelper {
 
         }
         public boolean addtransact(String typ,String catg,String amt,String note){
+
             SQLiteDatabase db=this.getWritableDatabase();
             ContentValues content=new ContentValues();
             content.put(cat,catg);

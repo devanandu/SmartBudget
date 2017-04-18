@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -107,6 +108,30 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.linkmembers"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.link"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="hitha.ken.deva.abin.smartbudget.checkrequests"
+            android:enabled="true"
+            android:exported="false" />
+
         <activity
             android:name="com.digits.sdk.android.PhoneNumberActivity"
             android:configChanges="orientation|screenSize"

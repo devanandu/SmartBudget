@@ -7,11 +7,13 @@ package hitha.ken.deva.abin.smartbudget;
 public class user {
     public String uid;
     public String email;
+    public String name;
 
     public user() {}
 
-    public user(String uid, String email) {
+    public user(String uid, String email,String name) {
         this.uid = uid;
         this.email = email;
+        this.name=name;
     }
 }

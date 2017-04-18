@@ -48,7 +48,6 @@ public class transadapter extends RecyclerView.Adapter<transadapter.ViewHolder>{
 
     @Override
     public int getItemCount() {
-
         return array.size();
     }
 

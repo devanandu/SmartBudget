@@ -58,7 +58,9 @@
             android:name="hitha.ken.deva.abin.smartbudget.list"
             android:label="History"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name="hitha.ken.deva.abin.smartbudget.paybill" />
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.paybill"
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="hitha.ken.deva.abin.smartbudget.pay"
             android:banner="@drawable/title"
@@ -131,7 +133,14 @@
             android:name="hitha.ken.deva.abin.smartbudget.checkrequests"
             android:enabled="true"
             android:exported="false" />
+        <service
+            android:name="hitha.ken.deva.abin.smartbudget.reqAccept_Service"
+            android:enabled="true"
+            android:exported="false" />
 
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.request_page"
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.digits.sdk.android.PhoneNumberActivity"
             android:configChanges="orientation|screenSize"

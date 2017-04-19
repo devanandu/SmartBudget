@@ -180,6 +180,10 @@
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_login.xml"
     },
     {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/memlist_layout.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/memlist_layout.xml"
+    },
+    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/dgts__invite_row_separator.xml",
         "source": "/Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/res/layout/dgts__invite_row_separator.xml"
     },
@@ -190,6 +194,10 @@
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_addexpense.xml",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_addexpense.xml"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_request_page.xml",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_request_page.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -286,10 +294,6 @@
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_create__view__list.xml",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_create__view__list.xml"
-    },
-    {
-        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_linkmembers.xml",
-        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/layout/activity_linkmembers.xml"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/layout/activity_link.xml",

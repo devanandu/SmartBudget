@@ -34,11 +34,11 @@ public class linkmembers extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_linkmembers);
+        setContentView(R.layout.activity_login);
 
         mPeopleList = new ArrayList<Map<String, String>>();
         PopulatePeopleList();
-        mTxtPhoneNo = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);
+       // mTxtPhoneNo = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);
 
         mAdapter = new SimpleAdapter(this, mPeopleList, R.layout.contactlist,
                 new String[]{"Name", "Phone"}, new int[]{

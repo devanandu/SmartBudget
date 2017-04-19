@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 /**
  * Created by deva on 15/04/17.
@@ -30,20 +31,26 @@ public class linkmembersDB extends SQLiteOpenHelper {
         db.execSQL("drop table if exists "+tbname);
         onCreate(db);
     }
-    public boolean add_member(String n,String ph)
+    public boolean add_member(String n,String ph,String sts)
     {
         SQLiteDatabase db=this.getWritableDatabase();
         ContentValues content=new ContentValues();
 
         content.put(name,n);
         content.put(phno,ph);
-        content.put(status,"false");
+        content.put(status,sts);
         return db.insert(tbname, null, content) != -1;
     }
     public Cursor get_all()
     {
         SQLiteDatabase db=this.getWritableDatabase();
-        Cursor result=db.rawQuery("select * from "+tbname,null);
+        Cursor result=db.rawQuery("select distinct * from "+tbname,null);
         return result;
+    }
+    public void update_status(String ph)
+    {
+        SQLiteDatabase db=this.getWritableDatabase();
+        db.execSQL("UPDATE members SET status='true' WHERE phno='"+ph+"'");
+        Log.e("db","error updating");
     }
 }

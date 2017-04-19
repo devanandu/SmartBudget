@@ -5,8 +5,12 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.ContactsContract;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -17,14 +21,29 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class link extends AppCompatActivity {
     DatabaseReference myRef,req;
     String userphno;
     linkmembersDB db;
+    private RecyclerView recyclerView;
+    private memberlist_adapter mAdapter;
+    private List<members> mem = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_link);
+
+        recyclerView = (RecyclerView) findViewById(R.id.memlis_rec);
+        mAdapter = new memberlist_adapter(mem);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(mAdapter);
+        fetch();
+
        db=new linkmembersDB(this);
         SharedPreferences mPreferences = getSharedPreferences("MyPref", MODE_PRIVATE);
          userphno= mPreferences.getString("loginid", null);
@@ -70,7 +89,8 @@ public class link extends AppCompatActivity {
     }
     public void showSelectedNumber(String type, String number)
     {
-        Toast.makeText(this, type + ": " + number, Toast.LENGTH_LONG).show();
+        //Snackbar snackbar = Snackbar.make(this.view, "Welcome to AndroidHive", Snackbar.LENGTH_LONG);
+        //snackbar.show();
     }
     public boolean checkuser(final String name,final String phno)
     {
@@ -85,7 +105,8 @@ public class link extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "User Available on Bilancio..Request send..", Toast.LENGTH_SHORT).show();
                     boolean request=false;
                     req.child(phno).child(userphno).setValue(request);
-                    db.add_member(name,phno);
+                    db.add_member(name,phno,"false");
+                    fetch();
                 }
                 else
                 {Toast.makeText(getApplicationContext(), "Sorry user not available", Toast.LENGTH_SHORT).show();
@@ -100,5 +121,23 @@ public class link extends AppCompatActivity {
         });
 
         return status;
+    }
+    public void fetch()
+    {
+        linkmembersDB db=new linkmembersDB(this);
+        Cursor c=db.get_all();
+        if(c.getCount()!=0)
+        {
+            while (c.moveToNext())
+            {members m=new members(c.getString(0),c.getString(1),c.getString(2));
+            mem.add(m);
+        }
+        mAdapter.notifyDataSetChanged();
+        }
+    }
+    public void link(View v)
+    {
+        Intent i=new Intent(this,request_page.class);
+        startActivity(i);
     }
 }

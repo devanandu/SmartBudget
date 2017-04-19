@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
             Log.e("service:","started");
             this.startService(intent);
         }
+        Intent req_service = new Intent(this,reqAccept_Service.class);
+        this.startService(req_service);
+        Log.e("service:","request");
     }
     private boolean isMyServiceRunning(Class<?> serviceClass) {
         ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);

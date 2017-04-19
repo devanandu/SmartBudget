@@ -16,6 +16,14 @@
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/add.png"
     },
     {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/cam.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/cam.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/camera.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/camera.png"
+    },
+    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-mdpi/kseb.png",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-mdpi/kseb.png"
     },

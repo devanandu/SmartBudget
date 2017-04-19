@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:2:1-124:12
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:2:1-143:12
 	package
 		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml
@@ -36,7 +36,7 @@ ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidMan
 	android:name
 		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:8:22-69
 application
-ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:10:5-122:19
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:10:5-141:19
 MERGED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:67:5-166:19
 MERGED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/deva/.android/build-cache/8df9993d6dcba9f89e6bcdc87c6ce1a4f0b92e47/output/AndroidManifest.xml:27:5-40:19
 MERGED from [io.fabric.sdk.android:fabric:1.3.16] /Users/deva/.android/build-cache/15d8ea9f6a214460b3279731f389fc013080a968/output/AndroidManifest.xml:31:5-20
@@ -197,11 +197,27 @@ ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidMan
 	android:name
 		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:117:13-46
 activity#hitha.ken.deva.abin.smartbudget.request_page
-ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:121:9-91
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:121:9-123:47
 	android:theme
-		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:121:48-79
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:123:13-44
 	android:name
-		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:121:19-47
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:122:13-41
+activity#hitha.ken.deva.abin.smartbudget.Add_product
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:124:9-133:20
+	android:label
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:126:13-63
+	android:theme
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:127:13-44
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:125:13-40
+activity#hitha.ken.deva.abin.smartbudget.product_list
+ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:134:9-140:36
+	android:label
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:136:13-64
+	android:theme
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:136:65-96
+	android:name
+		ADDED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml:135:13-41
 uses-sdk
 INJECTED from /Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.digits.sdk.android:digits:2.0.6] /Users/deva/.android/build-cache/8a0c94628481b5f8b13c6f26e14870167afdd6d3/output/AndroidManifest.xml:61:5-63:54

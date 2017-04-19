@@ -142,6 +142,26 @@
             android:name="hitha.ken.deva.abin.smartbudget.request_page"
             android:theme="@style/AppTheme" />
         <activity
+            android:name="hitha.ken.deva.abin.smartbudget.Add_product"
+            android:label="@string/title_activity_add_product"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hitha.ken.deva.abin.smartbudget.product_list"
+            android:label="@string/title_activity_product_list"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.digits.sdk.android.PhoneNumberActivity"
             android:configChanges="orientation|screenSize"
             android:exported="false"

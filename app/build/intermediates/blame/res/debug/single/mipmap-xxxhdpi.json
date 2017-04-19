@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/cam.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-xxxhdpi/cam.png"
+    },
+    {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/camera.png",
+        "source": "/Users/deva/AndroidStudioProjects/SmartBudget/app/src/main/res/mipmap-xxxhdpi/camera.png"
     },
     {
         "merged": "/Users/deva/AndroidStudioProjects/SmartBudget/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",

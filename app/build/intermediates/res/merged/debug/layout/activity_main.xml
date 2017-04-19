@@ -14,14 +14,12 @@
         android:layout_width="0dp"
         android:layout_height="39dp"
         android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="8dp"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -58,12 +56,12 @@
         android:text="Add Transaction"
         android:textColor="@color/cardview_light_background"
         android:textSize="18sp"
+        app:layout_constraintRight_toLeftOf="@+id/view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
         tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="45dp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_marginBottom="12dp" />
 
     <Button
         android:id="@+id/view"
@@ -74,15 +72,11 @@
         android:text="View ALl"
         android:textColor="@color/cardview_light_background"
         android:textSize="18sp"
-        android:layout_marginEnd="48dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/buylist"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="214dp"
-        android:layout_marginBottom="214dp"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+        app:layout_constraintLeft_toRightOf="@+id/add"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="216dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
@@ -93,42 +87,65 @@
         android:text="pay"
         android:textColor="@color/cardview_light_background"
         android:textSize="30sp"
-        android:layout_marginEnd="1dp"
-        app:layout_constraintRight_toLeftOf="@+id/view"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
         tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        android:layout_marginTop="78dp"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/buylist"
-        android:layout_marginTop="75dp"
-        app:layout_constraintTop_toBottomOf="@+id/add"
-        android:layout_marginBottom="72dp" />
-
-    <Button
-        android:id="@+id/buylist"
-        style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="0dp"
-        android:layout_height="51dp"
-        android:onClick="addlist"
-        android:text="add/viewlist"
-        android:textColor="@color/colorPrimary"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="-4dp"
+        android:id="@+id/linearLayout5"
+        app:layout_constraintHorizontal_bias="0.0">
 
-    <Button
-        android:id="@+id/button4"
-        style="@android:style/Widget.Holo.Light.Button"
-        android:layout_width="151dp"
-        android:layout_height="50dp"
-        android:onClick="addmember"
-        android:text="Link Members"
-        android:textColor="@color/colorPrimary"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="16dp"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent" />
+        <Button
+            android:id="@+id/buylist"
+            style="@android:style/Widget.Holo.Light.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addlist"
+            android:text="add/viewlist"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@android:style/Widget.Holo.Light.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addmember"
+            android:text="Link Members"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="485dp" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@android:style/Widget.Holo.Light.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:onClick="products"
+            android:text="Products"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="198dp" />
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

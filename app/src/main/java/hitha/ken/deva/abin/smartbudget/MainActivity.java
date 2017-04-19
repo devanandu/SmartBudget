@@ -70,6 +70,11 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this,addexpense.class);
         startActivity(i);
     }
+    public void products(View v)
+    {
+        Intent i=new Intent(this,product_list.class);
+        startActivity(i);
+    }
     public void pay(View v)
     {
         Intent i=new Intent(this,pay.class);
